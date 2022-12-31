@@ -11,3 +11,15 @@ export PATH=$PATH:/usr/local/go/bin
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+setopt no_beep
+setopt auto_pushd
+setopt pushd_ignore_dups
+setopt auto_cd
+setopt hist_ignore_dups
+setopt share_history
+setopt inc_append_history
+
+export HISTFILE=~/.zsh_history
+export HISTSIZE=100000
+export SAVEHIST=100000
