@@ -6,3 +6,6 @@ $ vim ~/.config/nvim/init.vim
 $ vim ~/.zshrc
 
 $ vim ~/.tmux.conf
+
+
+autohotkey：Windows用キーマッピング
