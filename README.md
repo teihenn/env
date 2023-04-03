@@ -9,3 +9,5 @@ $ vim ~/.tmux.conf
 
 
 autohotkey：Windows用キーマッピング
+
+Profiles.json: iTerm2用プロファイル
