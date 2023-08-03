@@ -10,6 +10,7 @@ set autoindent
 set hlsearch
 set clipboard=unnamed
 syntax on
+set number
 
 call plug#begin()
 Plug 'ntk148v/vim-horizon'
