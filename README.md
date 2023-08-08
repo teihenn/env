@@ -1,5 +1,5 @@
 # env
-PC環境設定ファイル等
+my config files
 ```
 $ vim ~/.config/nvim/init.vim
 ```
@@ -12,11 +12,11 @@ $ zshconfig
 $ vim ~/.tmux.conf
 ```
 
-autohotkey：Windows用キーマッピング
+autohotkey：Key Mapping for Windows
 
-Profiles.json: iTerm2用プロファイル
+Profiles.json: iTerm2 Profile
 
-tmux.conf反映コマンド
+tmux.conf reload command
 ```
 $ tmux source ~/.tmux.conf
 ```
