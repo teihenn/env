@@ -154,3 +154,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# Created by `pipx` on 2023-12-22 16:34:10
+export PATH="$PATH:/Users/y_yoshida/.local/bin"
+# START: Added by Updated Airflow Breeze autocomplete setup
+source /Users/y_yoshida/Projects/airflow/dev/breeze/autocomplete/breeze-complete-zsh.sh
+# END: Added by Updated Airflow Breeze autocomplete setup
