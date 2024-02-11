@@ -51,8 +51,15 @@
     "leetcode.hint.configWebviewMarkdown": false,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
     },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
     "workbench.iconTheme": "vscode-icons",
     "[rust]": {
         "editor.formatOnSave": true
