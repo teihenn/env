@@ -50,9 +50,9 @@
     "leetcode.hint.commandShortcut": false,
     "leetcode.hint.configWebviewMarkdown": false,
     "[python]": {
-        "editor.formatOnType": true
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
-    "tabnine.experimentalAutoImports": true,
     "workbench.iconTheme": "vscode-icons",
     "[rust]": {
         "editor.formatOnSave": true
