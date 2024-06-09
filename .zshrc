@@ -114,7 +114,7 @@ alias view="nvim -R"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
-### before oh my zsh ###
+### my original config ###
 PROMPT='%F{green}%D%f %F{green}%T%f %F{green}%~%f %F{blue}$%f '
 
 alias ls="ls -GF"
@@ -138,7 +138,6 @@ setopt inc_append_history
 export HISTFILE=~/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
-### before oh my zsh ###
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -158,3 +157,21 @@ export PATH="$PATH:/Users/y_yoshida/.local/bin"
 # START: Added by Updated Airflow Breeze autocomplete setup
 source /Users/y_yoshida/Projects/airflow/dev/breeze/autocomplete/breeze-complete-zsh.sh
 # END: Added by Updated Airflow Breeze autocomplete setup
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/y_yoshida/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/y_yoshida/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/y_yoshida/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/y_yoshida/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# Go
+export PATH=${PATH}:$(go env GOPATH)/bin
