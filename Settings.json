@@ -75,5 +75,14 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "go.formatTool": "gofmt",
+    "workbench.activityBar.orientation": "vertical",
+    "C_Cpp.clang_format_fallbackStyle": "Chromium",
+    "vscode-neovim.compositeKeys": {
+        "jk": {
+            "command": "vscode-neovim.escape",
+        },
+    },
 }
