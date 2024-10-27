@@ -85,4 +85,5 @@
             "command": "vscode-neovim.escape",
         },
     },
+    "markdown.marp.enableHtml": true,
 }
