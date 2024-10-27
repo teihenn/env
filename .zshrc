@@ -175,3 +175,6 @@ unset __conda_setup
 
 # Go
 export PATH=${PATH}:$(go env GOPATH)/bin
+
+# uv
+eval "$(uv generate-shell-completion zsh)"
