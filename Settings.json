@@ -50,19 +50,12 @@
     "leetcode.hint.commandShortcut": false,
     "leetcode.hint.configWebviewMarkdown": false,
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         },
     },
-    "black-formatter.args": [
-        "--line-length=79"
-    ],
-    "isort.args": [
-        "--profile",
-        "black"
-    ],
     "workbench.iconTheme": "vscode-icons",
     "[rust]": {
         "editor.formatOnSave": true
