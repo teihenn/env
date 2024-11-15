@@ -56,6 +56,9 @@
             "source.organizeImports": true
         },
     },
+    "mypy-type-checker.args": [
+        "--config=${workspaceFolder}/pyproject.toml"
+    ],
     "workbench.iconTheme": "vscode-icons",
     "[rust]": {
         "editor.formatOnSave": true
