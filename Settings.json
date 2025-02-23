@@ -1,10 +1,9 @@
 {
-    "vscode-neovim.neovimInitVimPaths.darwin": "/Users/yyyyy/.config/nvim/init.vim",
+    "vscode-neovim.neovimInitVimPaths.darwin": "/Users/y_yoshida/.config/nvim/init.vim",
     "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
     "security.workspace.trust.untrustedFiles": "open",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "workbench.editor.enablePreview": false,
     "explorer.confirmDragAndDrop": false,
     "peacock.favoriteColors": [
         {
@@ -44,8 +43,8 @@
             "value": "#42b883"
         }
     ],
-    "leetcode.nodePath": "/Users/yyyyy/.nvm/versions/node/v18.12.1/bin/node",
-    "leetcode.workspaceFolder": "/Users/yyyyy/Projects/LeetCode",
+    "leetcode.nodePath": "/Users/y_yoshida/.nvm/versions/node/v18.12.1/bin/node",
+    "leetcode.workspaceFolder": "/Users/y_yoshida/Projects/LeetCode",
     "leetcode.defaultLanguage": "python3",
     "leetcode.hint.commandShortcut": false,
     "leetcode.hint.configWebviewMarkdown": false,
@@ -53,8 +52,8 @@
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
+            "source.organizeImports": "explicit"
+        }
     },
     "mypy-type-checker.args": [
         "--config=${workspaceFolder}/pyproject.toml"
@@ -65,12 +64,29 @@
     },
     "rust-analyzer.checkOnSave": true,
     "rust-analyzer.check.command": "clippy",
-    "rust-analyzer.check.extraArgs": ["--", "-A", "clippy::needless_return"],
+    "rust-analyzer.check.extraArgs": [
+        "--",
+        "-A",
+        "clippy::needless_return"
+    ],
     "workbench.editor.enablePreview": false,
     "editor.formatOnSave": true,
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.minimap.enabled": false,
+    "python.terminal.activateEnvironment": false,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
+    ],
     "files.insertFinalNewline": true,
     "workbench.colorTheme": "Default Dark Modern",
     "go.formatTool": "gofmt",
@@ -82,4 +98,9 @@
         },
     },
     "markdown.marp.enableHtml": true,
+    "jdk.jdkhome": "/Users/y_yoshida/OpenJDK-23.jdk/Contents/Home",
+    "editor.formatOnSave": true,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    }
 }
